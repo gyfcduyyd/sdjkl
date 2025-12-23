@@ -108,7 +108,7 @@ setInterval(my_snow, interval);
 // -------------- 点击按钮后，播放视频 --------------
 // 定义视频编号
 let videoIndex = 1;
-let maxVideo = 8;
+let maxVideo = 4;
 // 获取按钮和视频标签
 let bgVideo = document.getElementById("bgVideo");
 let switchBtn = document.getElementById("switchBtn");
@@ -139,5 +139,6 @@ musicBtn.onclick = function(){
         musicBtn.innerText = "播放音乐";
     }
 };
+
 
 

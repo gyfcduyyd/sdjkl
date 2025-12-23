@@ -119,7 +119,7 @@ switchBtn.onclick = function (){
     if (videoIndex > maxVideo){
         videoIndex = 1;
     }
-    bgVideo.src = "./vedio/t" + videoIndex + ".mp4";
+    bgVideo.src = "t" + videoIndex + ".mp4";
     bgVideo.play();
 };
 
@@ -139,4 +139,5 @@ musicBtn.onclick = function(){
         musicBtn.innerText = "播放音乐";
     }
 };
+
 
